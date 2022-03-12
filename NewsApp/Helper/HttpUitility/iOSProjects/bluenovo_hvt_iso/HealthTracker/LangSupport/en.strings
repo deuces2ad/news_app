@@ -1,0 +1,83 @@
+/* 
+  en.strings
+  HealthTracker
+
+  Created by Abhishek Dhiman on 01/09/21.
+  
+*/
+
+//Loader
+
+"Loading..." = "Loading...";
+
+//"Under Development"
+
+"Under Development" = "Under Development";
+"Welcome to the C4YH application" = "Welcome to the C4YH application";
+
+// Main Tabbar
+
+"HOME" = "HOME";
+"Notifications" = "Notifications";
+"New Appointment" = "New Appointment";
+
+
+//Edit Profile
+
+"Edit Profile" = "Edit Profile";
+"  Basic Info  " = "  Basic Info  ";
+" Address " = " Address ";
+"First Name" = "First Name";
+"Email" = "Email";
+"Phone" = "Phone";
+"Date of Birth" = "Date of Birth";
+"Gender" = "Gender";
+"License Number" = "License Number";
+"Address" = "Address";
+"State" = "State";
+"City" = "City";
+"Zipcode" = "Zipcode";
+"Prefered Language" = "Prefered Language";
+"Notes" = "Notes";
+
+//SignnoutOption
+
+"Profile" = "Profile";
+"About Us" = "About Us";
+"Logout" = "Logout";
+"Cancel" = "Cancel";
+"Change Language" = "Change Language";
+"Patient" = "User";
+"Hello," = "Hello,";
+
+
+//Chnage Language
+"Please choose the prefered Language" = "Please choose the prefered Language";
+
+//cancel Screen
+ "Caregiver is not available" = "Caregiver is not available";
+"Do not require this service" = "Do not require this service";
+ "Has conflicting appointment" = "Has conflicting appointment";
+ "Others" = "Others";
+
+//"Your Appointements"
+"Your Appointements" = "Your Appointements";
+"Appointment Status" = "Appointment Status";
+"STOP NAVAIAGTION" = "STOP NAVAIAGTION";
+"START NAVIGATION" = "START NAVIGATION";
+
+//Appointments
+"Today's Appointments" = "Today's Appointments";
+"All Appointments" = "All Appointments";
+"Track Doctor" = "Track Doctor";
+"Track" = "Track";
+" Avoid Tolls " = " Avoid Tolls ";
+"Phone" = "Phone";
+"Arriving in" = "Arriving in";
+"Distance" = "Distance";
+
+
+
+
+
+

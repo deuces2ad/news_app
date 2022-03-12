@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  HealthTracker
+
+  Created by Abhishek Dhiman on 01/09/21.
+  
+*/
+
+
+//Loader
+
+"Loading..." = "Cargando...";
+
+//"Under Development"
+
+"Under Development" = "En desarrollo";
+
+//OnBoard Screen
+"At your Quick service" = "A Su Disposicion";
+"Saving lives" = "Salvando Vidas ";
+"24/7 available for your appointments" = "24/7 Disponible para sus  citas";
+"Saving lives of people by self visiting to them" = "Salvando la vida de las personas con la autovisita";
+"The care you want" = "El cuidado que quieres ";
+"Affordable and trusted care for you" = "cuidado asequible y de confianza para usted";
+"Skip" = "Saltar";
+"Next" = "proximo";
+"Get Started" = "Empezar";
+
+//Signin
+
+"Enter Mobile" = "Ingrese movil";
+"Enter Password" = "Ingrese su contraseña";
+"Forgot Password" = "Forgot Password";
+"LOGIN" = "Inicio de sesion";
+"Forgot Password" = "Has olvidado la contraseña";
+
+
+
+// Main Tabbar
+
+"HOME" = "HOGAR";
+"Notifications" = "Notificaciones";
+"New Appointment" = "Nueva cita";
+
+
+//Edit Profile
+
+"Edit Profile" = "Editar perfil";
+"  Basic Info  " = "  Información básica  ";
+"First Name" = "Primer nombre";
+"Email" = "Correo electrónico";
+"Phone" = "Teléfono";
+"Date of Birth" = "Fecha de cumpleaños";
+"Gender" = "Género";
+"License Number" = "Número de licencia";
+"Address" = "Dirección";
+"State" = "Estado";
+"City" = "Ciudad";
+"Zipcode" = "Código postal";
+
+
+"Mobile Number" = "Ingrese movil";
+"Password" = "Ingrese su contraseña";

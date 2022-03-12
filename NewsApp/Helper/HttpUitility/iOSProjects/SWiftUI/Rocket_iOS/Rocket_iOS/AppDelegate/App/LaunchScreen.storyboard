@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="jellee-roman.ttf">
+            <string>Jellee-Roman</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="launch_delay" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clouds" translatesAutoresizingMaskIntoConstraints="NO" id="T0Q-82-L4j">
+                                <rect key="frame" x="0.0" y="666" width="428" height="260"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="260" id="8v8-oa-gSN">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="zJ6-Q3-pVR">
+                                <rect key="frame" x="129" y="476" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="8NI-e1-IaL">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="170" id="Szp-uH-ByW">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rocket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEh-NS-b5e">
+                                <rect key="frame" x="155" y="623" width="118" height="43"/>
+                                <fontDescription key="fontDescription" name="Jellee-Roman" family="Jellee" pointSize="36"/>
+                                <color key="textColor" name="themeOrange"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siap Meluncur!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFh-LL-pf3">
+                                <rect key="frame" x="131" y="781.66666666666663" width="166.33333333333337" height="34.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                <color key="textColor" name="themeGray"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="46"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="themeOrange"/>
+                        <constraints>
+                            <constraint firstItem="T0Q-82-L4j" firstAttribute="top" secondItem="zJ6-Q3-pVR" secondAttribute="bottom" constant="20" id="0TJ-cC-m6J">
+                                <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                            </constraint>
+                            <constraint firstAttribute="bottom" secondItem="T0Q-82-L4j" secondAttribute="bottom" id="9TJ-Ry-yTk"/>
+                            <constraint firstItem="zJ6-Q3-pVR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SCw-SO-9aC"/>
+                            <constraint firstItem="T0Q-82-L4j" firstAttribute="top" secondItem="yEh-NS-b5e" secondAttribute="bottom" id="VOp-yo-DkI"/>
+                            <constraint firstItem="T0Q-82-L4j" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="gKI-nW-vY8"/>
+                            <constraint firstItem="T0Q-82-L4j" firstAttribute="top" secondItem="TFh-LL-pf3" secondAttribute="bottom" constant="-150" id="gli-Xg-hTt">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-300"/>
+                            </constraint>
+                            <constraint firstItem="yEh-NS-b5e" firstAttribute="centerX" secondItem="zJ6-Q3-pVR" secondAttribute="centerX" id="mZg-HI-JAY"/>
+                            <constraint firstItem="T0Q-82-L4j" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="sZm-is-XEk"/>
+                            <constraint firstItem="TFh-LL-pf3" firstAttribute="centerX" secondItem="yEh-NS-b5e" secondAttribute="centerX" id="zCC-ot-d4W"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clouds" width="375" height="279"/>
+        <image name="logo" width="32" height="63"/>
+        <namedColor name="themeGray">
+            <color red="0.4309999942779541" green="0.4309999942779541" blue="0.4309999942779541" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="themeOrange">
+            <color red="0.97600001096725464" green="0.62400001287460327" blue="0.11800000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,79 @@
+/* 
+  sp.strings
+  HealthTracker
+
+  Created by Abhishek Dhiman on 01/09/21.
+  
+*/
+
+//Loader
+
+"Loading..." = "Cargando...";
+
+//"Under Development"
+
+"Under Development" = "En desarrollo";
+"Welcome to the C4YH application" = "Bienvenidos a la aplicacion de C4YH";
+
+// Main Tabbar
+
+"HOME" = "HOGAR";
+"Notifications" = "Notificaciones";
+"New Appointment" = "Nueva cita";
+
+
+//Edit Profile
+
+"Edit Profile" = "Editar perfil";
+"  Basic Info  " = "  Información básica  ";
+" Address " = " Direccion ";
+"First Name" = "Primer nombre";
+"Email" = "Correo electrónico";
+"Phone" = "Teléfono";
+"Date of Birth" = "Fecha de cumpleaños";
+"Gender" = "Género";
+"License Number" = "Número de licencia";
+"Address" = "Dirección";
+"State" = "Estado";
+"City" = "Ciudad";
+"Zipcode" = "Código postal";
+"Prefered Language" = "Idioma preferido";
+
+
+//SinnoutOption
+
+"Profile" = "Perfil";
+"About Us" = "Acerca de nosotros ";
+"Logout" = "Cerrar Sesion";
+"Cancel" = "Cancelar";
+"Change Language" = "Cambiar idioma";
+"Patient" = "Usuario";
+"Hello," = "Hola,";
+
+//Chnage Language
+"Please choose the prefered Language" = "Elija el idioma que prefiera";
+
+//cancel Screen
+
+"Caregiver is not available" = "Cuidador no esta disponible";
+"Do not require this service" = "No se require el servicio";
+"Has conflicting appointment" = "Tengo otra cita a la misma hora";
+"Others" = "Otro";
+
+//your appointments
+"Your Appointements" = "Sus citas";
+"Appointment Status" = "Estado de la cita";
+"STOP NAVIGATION" = "INICIAR NAVEGACIÓN";
+"START NAVIGATION" = "DETENER NAVEGACION";
+
+//Appointments
+"Today's Appointments" = "      Hoy Citas             ";
+"All Appointments" = "         Todo Citas          ";
+"Track Doctor" = "Track Doctor";
+"Track" = "Rastrear al doctor";
+" Avoid Tolls " = " Evitar peajes ";
+"Phone" = "Telefono";
+"Notes" = "Notas";
+"Arriving in" = "Al llegar a";
+"Distance" = "Distancia";
+"Pending" = "Pendiente";

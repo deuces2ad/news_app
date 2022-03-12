@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch Delay Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController restorationIdentifier="launch_delay" storyboardIdentifier="launch_delay" id="Y6W-OH-hqX" customClass="LaunchDelayController" customModule="HealthTracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nnx-69-cbA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Care4yourhealth" translatesAutoresizingMaskIntoConstraints="NO" id="tGW-RB-HeY">
+                                <rect key="frame" x="41.5" y="274" width="331" height="358"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="E1S-pe-7tn"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tGW-RB-HeY" firstAttribute="centerX" secondItem="E1S-pe-7tn" secondAttribute="centerX" id="ONj-QE-x3J"/>
+                            <constraint firstItem="tGW-RB-HeY" firstAttribute="height" secondItem="nnx-69-cbA" secondAttribute="height" multiplier="0.4" id="aUQ-BS-5GY"/>
+                            <constraint firstItem="tGW-RB-HeY" firstAttribute="centerY" secondItem="E1S-pe-7tn" secondAttribute="centerY" id="abT-ZP-lhB"/>
+                            <constraint firstItem="tGW-RB-HeY" firstAttribute="width" secondItem="nnx-69-cbA" secondAttribute="width" multiplier="0.8" id="gy1-xg-tNh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-74" y="66"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Care4yourhealth" width="1616" height="1114"/>
+    </resources>
+</document>

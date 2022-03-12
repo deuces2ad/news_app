@@ -1,0 +1,37 @@
+/* 
+  sp.strings
+  HealthTracker
+
+  Created by Abhishek Dhiman on 01/09/21.
+  
+*/
+
+//Loader
+
+"Loading..." = "Loading...";
+
+//"Under Development"
+
+"Under Development" = "En desarrollo";
+
+// Main Tabbar
+
+"HOME" = "HOGAR";
+"Notifications" = "Notificaciones";
+"New Appointment" = "Nueva cita";
+
+
+//Edit Profile
+
+"Edit Profile" = "Editar perfil";
+"  Basic Info  " = "  Información básica  ";
+"First Name" = "Primer nombre";
+"Email" = "Correo electrónico";
+"Phone" = "Teléfono";
+"Date of Birth" = "Fecha de cumpleaños";
+"Gender" = "Género";
+"License Number" = "Número de licencia";
+"Address" = "Dirección";
+"State" = "Estado";
+"City" = "Ciudad";
+"Zipcode" = "Código postal";

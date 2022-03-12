@@ -1,0 +1,79 @@
+/* 
+  Localizable.strings
+  HealthTracker
+
+  Created by Abhishek Dhiman on 01/09/21.
+  
+*/
+
+//Loader
+
+"Loading..." = "Loading...";
+
+//"Under Development"
+
+"Under Development" = "Under Development";
+
+//OnBoard Screen
+"At your Quick service" = "At your Quick service";
+"24/7 available for your appointments" = "24/7 Disponible para sus  citas";
+"Saving lives" = "Saving lives";
+"Saving lives of people by self visiting to them" = "Saving lives of people by self visiting to them";
+"The care you want" = "The care you want";
+"Affordable and trusted care for you" = "Affordable and trusted care for you";
+"Next" = "Next";
+"Skip" = "Skip";
+"Get Started" = "Get Started";
+
+
+//Signin
+
+"Enter Mobile" = "Enter Mobile";
+"Enter Password" = "Enter Password";
+"Forgot Password" = "Forgot Password";
+"LOGIN" = "LOGIN";
+"Enter Mobile" = "Enter Mobile";
+"Enter Password" = "Enter Password";
+"LOGIN" = "LOGIN";
+"Forgot Password"  = "Forgot Password";
+
+
+
+
+
+// Main Tabbar
+
+"HOME" = "HOME";
+"Notifications" = "Notifications";
+"New Appointment" = "New Appointment";
+
+
+//Edit Profile
+
+"Edit Profile" = "Edit Profile";
+"  Basic Info  " = "  Basic Info  ";
+"First Name" = "First Name";
+"Email" = "Email";
+"Phone" = "Phone";
+"Date of Birth" = "Date of Birth";
+"Gender" = "Gender";
+"License Number" = "License Number";
+"Address" = "Address";
+"State" = "State";
+"City" = "City";
+"Zipcode" = "Zipcode";
+
+"Mobile Number" = "Mobile Number";
+"Password" = "Password";
+
+
+
+
+
+
+
+
+
+
+
+
