@@ -23,6 +23,7 @@ class DateParser: NSObject {
         return formattedDateString
     }
     
+    
     static func stringToDate(_ dateString : String)->Date?{
         let defaultFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ";
         return stringToDate(dateString, dateFormat: defaultFormat)
