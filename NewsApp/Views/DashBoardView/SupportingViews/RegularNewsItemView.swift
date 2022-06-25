@@ -30,7 +30,7 @@ struct RegularNewsItemView: View {
                         .fixedSize(horizontal: false, vertical: true)
                         
                     
-                    Text(DateParser.getFormatedDate(date: item.pubDate!))
+                    Text("Date missing!!")
                         .font(.system(size: 14, weight: .ultraLight))
                 }
                 .padding(5)

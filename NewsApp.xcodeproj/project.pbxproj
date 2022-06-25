@@ -22,10 +22,10 @@
 		18E131BA27DC3F7C00B81AA0 /* RegularNewsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E131B927DC3F7C00B81AA0 /* RegularNewsItemView.swift */; };
 		18E131BD27DC403100B81AA0 /* NewsFeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E131BC27DC403100B81AA0 /* NewsFeedResponse.swift */; };
 		18E131C027DC40A800B81AA0 /* NewsFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E131BF27DC40A800B81AA0 /* NewsFeedService.swift */; };
-		18E131C227DC421200B81AA0 /* DashBoardViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E131C127DC421200B81AA0 /* DashBoardViewModal.swift */; };
+		18E131C227DC421200B81AA0 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E131C127DC421200B81AA0 /* DashBoardViewModel.swift */; };
 		18E131C627DC43BA00B81AA0 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 18E131C527DC43BA00B81AA0 /* SDWebImageSwiftUI */; };
-		18E131CB27DC46EC00B81AA0 /* DateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E131CA27DC46EC00B81AA0 /* DateParser.swift */; };
 		18E131D127DC5CB900B81AA0 /* ScrollRefreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E131D027DC5CB900B81AA0 /* ScrollRefreshable.swift */; };
+		9999F1B628673DB400BE6E4C /* DateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9999F1B528673DB400BE6E4C /* DateParser.swift */; };
 		99F4765227DC759800A444B3 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F4765127DC759800A444B3 /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,10 +47,10 @@
 		18E131B927DC3F7C00B81AA0 /* RegularNewsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularNewsItemView.swift; sourceTree = "<group>"; };
 		18E131BC27DC403100B81AA0 /* NewsFeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedResponse.swift; sourceTree = "<group>"; };
 		18E131BF27DC40A800B81AA0 /* NewsFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedService.swift; sourceTree = "<group>"; };
-		18E131C127DC421200B81AA0 /* DashBoardViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModal.swift; sourceTree = "<group>"; };
+		18E131C127DC421200B81AA0 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
 		18E131C327DC434100B81AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		18E131CA27DC46EC00B81AA0 /* DateParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateParser.swift; path = ../../../../../Desktop/iOSProjects/bluenovo_hvt_iso/HealthTracker/helper/dateHelper/DateParser.swift; sourceTree = "<group>"; };
 		18E131D027DC5CB900B81AA0 /* ScrollRefreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollRefreshable.swift; sourceTree = "<group>"; };
+		9999F1B528673DB400BE6E4C /* DateParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateParser.swift; sourceTree = "<group>"; };
 		99F4765127DC759800A444B3 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +90,7 @@
 				18E1319427DC353900B81AA0 /* ContentView.swift */,
 				18E131A027DC355300B81AA0 /* Modals */,
 				18E131A427DC359000B81AA0 /* Views */,
-				18E131A127DC355900B81AA0 /* ViewsModals */,
+				18E131A127DC355900B81AA0 /* ViewsModels */,
 				18E131BE27DC408A00B81AA0 /* Services */,
 				18E131A227DC356100B81AA0 /* Helper */,
 				18E1319627DC353F00B81AA0 /* Assets.xcassets */,
@@ -115,19 +115,19 @@
 			path = Modals;
 			sourceTree = "<group>";
 		};
-		18E131A127DC355900B81AA0 /* ViewsModals */ = {
+		18E131A127DC355900B81AA0 /* ViewsModels */ = {
 			isa = PBXGroup;
 			children = (
-				18E131C127DC421200B81AA0 /* DashBoardViewModal.swift */,
+				18E131C127DC421200B81AA0 /* DashBoardViewModel.swift */,
 			);
-			path = ViewsModals;
+			path = ViewsModels;
 			sourceTree = "<group>";
 		};
 		18E131A227DC356100B81AA0 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				9999F1B428673DA200BE6E4C /* DateParser */,
 				18E131CF27DC5CB100B81AA0 /* ScrollRefreshable */,
-				18E131C727DC447E00B81AA0 /* DateParser */,
 				18E131AB27DC3EEF00B81AA0 /* HttpUitility */,
 				99F4765127DC759800A444B3 /* AppConfig.swift */,
 			);
@@ -190,20 +190,20 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		18E131C727DC447E00B81AA0 /* DateParser */ = {
-			isa = PBXGroup;
-			children = (
-				18E131CA27DC46EC00B81AA0 /* DateParser.swift */,
-			);
-			path = DateParser;
-			sourceTree = "<group>";
-		};
 		18E131CF27DC5CB100B81AA0 /* ScrollRefreshable */ = {
 			isa = PBXGroup;
 			children = (
 				18E131D027DC5CB900B81AA0 /* ScrollRefreshable.swift */,
 			);
 			path = ScrollRefreshable;
+			sourceTree = "<group>";
+		};
+		9999F1B428673DA200BE6E4C /* DateParser */ = {
+			isa = PBXGroup;
+			children = (
+				9999F1B528673DB400BE6E4C /* DateParser.swift */,
+			);
+			path = DateParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,10 +286,10 @@
 				18E131B727DC3F2400B81AA0 /* HttpUtility.swift in Sources */,
 				99F4765227DC759800A444B3 /* AppConfig.swift in Sources */,
 				18E131A727DC35BE00B81AA0 /* DashBoardView.swift in Sources */,
-				18E131CB27DC46EC00B81AA0 /* DateParser.swift in Sources */,
 				18E131AA27DC379100B81AA0 /* LargerThumbnailNewsItemView.swift in Sources */,
 				18E1319527DC353900B81AA0 /* ContentView.swift in Sources */,
 				18E131B827DC3F2400B81AA0 /* HUHttpMethods.swift in Sources */,
+				9999F1B628673DB400BE6E4C /* DateParser.swift in Sources */,
 				18E131B527DC3F2400B81AA0 /* EncodableExtension.swift in Sources */,
 				18E131D127DC5CB900B81AA0 /* ScrollRefreshable.swift in Sources */,
 				18E1319327DC353900B81AA0 /* NewsAppApp.swift in Sources */,
@@ -297,7 +297,7 @@
 				18E131BD27DC403100B81AA0 /* NewsFeedResponse.swift in Sources */,
 				18E131B427DC3F2400B81AA0 /* HURequest.swift in Sources */,
 				18E131C027DC40A800B81AA0 /* NewsFeedService.swift in Sources */,
-				18E131C227DC421200B81AA0 /* DashBoardViewModal.swift in Sources */,
+				18E131C227DC421200B81AA0 /* DashBoardViewModel.swift in Sources */,
 				18E131B327DC3F2400B81AA0 /* HUNetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

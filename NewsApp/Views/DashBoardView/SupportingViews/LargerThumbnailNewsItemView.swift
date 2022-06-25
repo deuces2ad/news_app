@@ -42,7 +42,7 @@ struct LargerThumbnailNewsItemView: View {
          
                 
                 HStack{
-                    Text(DateParser.getFormatedDate(date: item.pubDate!))
+                    Text("Date missing!!")
                         .padding(.vertical,5)
                         .font(.system(size: 18, weight: .ultraLight))
                     Spacer()
