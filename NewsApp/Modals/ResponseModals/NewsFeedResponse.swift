@@ -17,6 +17,7 @@ struct NewsFeedResponse: Decodable {
 }
 
 // MARK: - Feed
+//TODO: Please use the right data types
 struct Feed: Decodable {
     var url: String?
     var title: String?

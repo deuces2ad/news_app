@@ -5,19 +5,27 @@
 //  Created by Apple on 12/03/22.
 //
 
-import UIKit
+import UIKit // TODO: Remove UIKit
 
-class DateParser: NSObject {
+//TODO: Update this class name to NewsDateFormatter?
+class DateParser: NSObject { // TODO: Remove NSObject
     
-    static func parseToFormattedData(_ dateString : String)->String?{
+    //TODO: Delete all the functions which are not required
+    //TODO: add spaces on the return type
+    
+    //TODO: rename the function to something meaningful
+    static func parseToFormattedData(_ dateString : String) -> String? {
+        guard dateString.isEmpty == false else {
+            return nil
+        }
         guard let date = stringToDate(dateString)
             else{
-                return ""
+                return nil
         }
         
         guard let formattedDateString = dateToString(date)
             else{
-                return ""
+                return nil
         }
         
         return formattedDateString
@@ -30,13 +38,13 @@ class DateParser: NSObject {
     }
     
     static func dateToString(_ date : Date)->String?{
-        let defaultFormat = "MMM d, yyyy"
+        let defaultFormat = "MMM d, yyyy" // TODO: Please move this to constant
         return dateToString(date, requiredFormat : defaultFormat)
     }
     
     static func dateToStringInServerFormat(_ date : Date?)->String?{
         
-        guard let dateUW = date
+        guard let dateUW = date // TODO: rename the variable name to add value
             else{
                 return ""
         }
@@ -55,6 +63,15 @@ class DateParser: NSObject {
         return dateToString(date, requiredFormat: requiredFormat, timeZone: defaultTimeZone)
     }
     
+    private getDateFormatter(timeZone: TimeZone) -> DateFormatter {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier : "en_US_POSIX")
+        dateFormatter.dateFormat = dateFormat
+        dateFormatter.timeZone = timeZone
+        
+        return dateFormatter
+    }
     
     static func stringToDate(_ dateString : String, dateFormat : String, timeZone : TimeZone)->Date?{
         
@@ -72,11 +89,7 @@ class DateParser: NSObject {
         if stringToDate(dateString, dateFormat: defaultFormat, timeZone: UTCTimeZone) != nil {
             return stringToDate(dateString, dateFormat: defaultFormat, timeZone: UTCTimeZone)
         }
-        
-       
-        
         return stringToDate(dateString, dateFormat: "yyyy-MM-dd'T'HH:mm:ssZ", timeZone: UTCTimeZone)
-        
     }
     
     static func dateToString(_ date : Date?, requiredFormat : String, timeZone : TimeZone)->String?{
@@ -112,9 +125,7 @@ class DateParser: NSObject {
         
         return dateTime
     }
-    
 
-    
     static func getCurrentDateInUTC()->Date?{
         
         let dateFormatter = DateFormatter()
@@ -125,6 +136,4 @@ class DateParser: NSObject {
         let date = dateFormatter.date(from: str)
         return date
     }
-    
-   
 }
