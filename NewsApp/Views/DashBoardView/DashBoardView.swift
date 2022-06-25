@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DashBoardView: View {
     
-    @ObservedObject var dashBoardViewModal = DashBoardViewModal()
+    @ObservedObject var dashBoardViewModal = DashBoardViewModel()
     @State var items : Item?
     
     var body: some View {

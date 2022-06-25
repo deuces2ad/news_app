@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DashBoardViewModal : ObservableObject{
+class DashBoardViewModel : ObservableObject{
     
     @Published var newsFeeditems : [Item] = []
     
