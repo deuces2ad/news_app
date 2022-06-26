@@ -20,35 +20,31 @@ struct DashBoardView: View {
                     .foregroundColor(.green)
                     .font(.system(size: 18, weight: .bold))
                     .frame(height:50)
-               Spacer()
+                Spacer()
             }
             .padding(.leading)
             .background(.white)
-           
             
+            //TODO: can we use nuke for image download?
             ScrollRefreshable(title: "Pull Down", tintColor: .gray, content: {
-                    ForEach((dashBoardViewModal.newsFeeditems)){ item in
-                        if item.title == dashBoardViewModal.newsFeeditems[0].title{
-                            LargerThumbnailNewsItemView(item: item)
-                            
-                        }else{
-                            RegularNewsItemView(item: item)
-                        }
+                
+                ForEach((dashBoardViewModal.newsFeeditems)){ item in
+                    if item.title == dashBoardViewModal.newsFeeditems.first.title {
+                        LargerThumbnailNewsItemView(item: item)
+                    }else{
+                        RegularNewsItemView(item: item)
                     }
-
+                }
+                
             }){
                 dashBoardViewModal.fetchNewsFeed()
                 await Task.sleep(2_000_000_000)
             }
-            
         }
-       
         .onAppear(perform: {
             dashBoardViewModal.fetchNewsFeed()
         })
-        
         .background(.gray)
-        
     }
 }
 

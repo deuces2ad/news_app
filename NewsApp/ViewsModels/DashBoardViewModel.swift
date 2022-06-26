@@ -7,24 +7,17 @@
 
 import Foundation
 
-class DashBoardViewModel : ObservableObject{
+class DashBoardViewModel : ObservableObject {
     
-    @Published var newsFeeditems : [Item] = []
+    @Published var newsFeedItems : [Item]? = []
     
-     // MARK: - News Service API
-    func fetchNewsFeed(){
-        
+    // MARK: - get news feed
+    func fetchNewsFeed() {
         NewsFeedService.getNewsFeed { result in
-           
-            guard let info = result else {
-                return
-            }
-            print(info)
-            DispatchQueue.main.async {
-                self.newsFeeditems = info.items!
-            }
-            
+            guard let newsFeed = result else { return }
+           // DispatchQueue.main.async {
+                self.newsFeedItems = newsFeed.items! //TODO: Avoid force unwrapping
+            //}
         }
     }
-    
 }
